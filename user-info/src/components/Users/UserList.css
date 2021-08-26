@@ -1,0 +1,19 @@
+.users_list {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 40rem;
+    background-color: mistyrose;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .users_list ul {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .users_list li {
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
