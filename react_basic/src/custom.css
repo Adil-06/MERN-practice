@@ -21,9 +21,9 @@
 
 /* for expenslist */
 .expenses_container{
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: rgb(250, 187, 136);
-  margin: 2rem ;
+  margin: 1rem ;
   border-radius: 12px;
   box-shadow: 0 2px 8px lightcoral;
 }

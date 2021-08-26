@@ -1,13 +1,15 @@
 import React from 'react'
 
 function ExpenseItems( props) {
-    // const month = props.date.toLocaleString('en-US', {month : 'long'});
-    // const day = props.date.toLocaleString('en-US', {day : '2-digit'});
-    // const year = props.date.getFullYear()
+
+    // const month = props.date.toLocaleString('en-US', { month: 'long' });
+    // const day = props.date.toLocaleString('en-US', { day: '2-digit' });
+    // const year = props.date.getFullYear().toString();  
    
     return (
         <div className="expense-item">
              <div className="expense-item__date">
+                 
                 <p>{props.date}</p>
             </div>
             <div className="expense-item__description">
@@ -15,7 +17,7 @@ function ExpenseItems( props) {
             </div>         
             <div className="expense-item__price">
                 <p>$ { props.price}</p>
-            </div>
+            </div>            
         </div>
     )
 }

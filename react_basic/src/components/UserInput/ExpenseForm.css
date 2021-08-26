@@ -1,0 +1,42 @@
+
+.form_Container {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 5px;
+    border: cornsilk 2px solid;
+    border-radius: 10px;
+}
+.expense_controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .expense_control  label {
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .expense_control input {
+    
+    padding: 0.5rem;
+    color: grey;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .expense_btn {
+    text-align: center;
+    color: rgb(10, 10, 10);
+    background-color: gold;
+    border-radius: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+  }
