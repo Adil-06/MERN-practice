@@ -1,0 +1,40 @@
+.meals {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+  }
+  
+  .meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* .meals li {
+      display: flex;
+      justify-content: center;
+      background-color: cornflowerblue;
+      padding: 5px 10px;
+      max-width: auto;
+      margin: 5px auto;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      border: 1px solid wheat;
+      border-radius: 10px;
+      box-shadow: 2px 5px rgb(85, 84, 79);
+      
+  }   */
+
+
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
