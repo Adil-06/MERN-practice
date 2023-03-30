@@ -1,2 +1,2 @@
 
-This project is tested with [BrowserStack](https://browserstack.com/)
+This project is tested with [BrowserStack](https://browserstack.com/)*
